@@ -7,7 +7,7 @@ from datetime import datetime
 from PIL import Image
 
 # MongoDB Atlas Connection String
-MONGO_URI = "mongodb+srv://atlas-sample-dataset-load-67e2dbba04ae7a42fc40415f:ayll5c93U4nffNNA@cluster0.sjij0.mongodb.net/?appName=Cluster0"
+MONGO_URI = "mongodb://iamomjoshi:ayll5c93U4nffNNA@cluster0-shard-00-00.sjij0.mongodb.net:27017,cluster0-shard-00-01.sjij0.mongodb.net:27017,cluster0-shard-00-02.sjij0.mongodb.net:27017/?replicaSet=atlas-l5wy6s-shard-0&ssl=true&authSource=admin&retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "demo"
 COLLECTION_NAME = "ImageData"
 IMAGE_PATH = "/home/pi/image.jpg"  # Change this to your actual image path
